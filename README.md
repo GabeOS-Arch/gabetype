@@ -1,4 +1,4 @@
-[![][((https://raw.githubusercontent.com/GabeOS-Arch/gabetype/82ea11ede13a6b677d908b08174b529982501dfb/frontend/static/images/image.png)](https://monkeytype.com/)
+![gabetype banna](https://github.com/GabeOS-Arch/gabetype/blob/888c8f233e9be79d551e3630d741c110b93ec746/frontend/static/images/image.png)
 <br />
 
 [![ChartJs](https://img.shields.io/badge/Chart.js-FF6384?style=for-the-badge&logo=chartdotjs&logoColor=white)](https://www.chartjs.org/)
