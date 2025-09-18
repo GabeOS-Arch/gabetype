@@ -76,3 +76,8 @@ Whoops, that's an anatomically accurate heart
 # Support
 
 If you wish to support further development and feel extra awesome, you can [donate](https://ko-fi.com/thesomewhatyou) to me or donate to [Monkeytype](https://ko-fi.com/monkeytype). Donate to them, not me.
+
+---
+
+since this is my own repo, like jevil, I CAN COMMIT ANYTHING! 
+####### not crimes tho
