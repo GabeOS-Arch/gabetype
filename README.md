@@ -22,11 +22,13 @@
 
 # About
 
-Monkeytype is a minimalistic and customizable [typing test](https://www.monkeytype.com). It features many test modes, an account system to save your typing speed history, and user-configurable features such as themes, sounds, a smooth caret, and more. Monkeytype attempts to emulate a natural typing experience during a typing test by unobtrusively presenting the text prompts and displaying typed characters in place, providing straightforward, real-time feedback on typos, speed, and accuracy.
+Gabetype is a complete knockoff of Monkeytype that doesn't deserve to be a fork, but I did it anyway. It's a simple typing test with updates from itself AND from the Monkeytype repo.
+For the time being, it will not be hosted on "gabetype.com" but will be hosted on thesomewhatyou.me to save costs. 
+This is a WIP for now; Firebase, DBs, and others will be hosted on a Pi I will be getting myself and if needed I will scale up. 
 
 # Features
 
-- minimalistic design, with optional advertisements and focus mode while typing
+- minimalistic design, with no ads because I'm not greedy
 - type what you see, see what you type
 - live errors, wpm, and accuracy displays
 - a variety of test lengths and languages
@@ -34,17 +36,19 @@ Monkeytype is a minimalistic and customizable [typing test](https://www.monkeyty
 - quotes
 - themes
 - smooth caret
-- account system
-- challenges and just-for-fun test modifiers
-- and much more
+- account system (soon)
+- challenges and just-for-hell modifiers that I did not make
+- and much more that I never made
 
-# Discord bot
+# So... what about the Discord bot?
 
-On the [Monkeytype Discord server](https://www.discord.gg/monkeytype), we added a Discord bot to auto-assign optional roles based on typing performance and challenge completion. You can find its code over at https://github.com/monkeytypegame/monkeytype-bot.
+Yeah, yeah, once I get the Pi, set up Redis, MongoDB, etc, I'll make it work.
+
 
 # Bug report or Feature request
 
-If you encounter a bug or have a feature request, [send us an email](mailto:contact@monkeytype.com), [create an issue](https://github.com/monkeytypegame/monkeytype/issues), [create a discussion thread](https://github.com/monkeytypegame/monkeytype/discussions), or [join the Discord server](https://www.discord.gg/monkeytype).
+If you encounter a bug or have a feature request, fork this, make your changes, and I'll review. Or contact me [here](mailto:gabriel@thesomewhatyou.me) and you'll find your way there. 
+It's more efficient to check the repo, but whatever.
 
 # Want to Contribute?
 
@@ -56,16 +60,19 @@ Before contributing to this repository, please read the [code of conduct](./docs
 
 # Security
 
-To report a security vulnerability, please refer to [SECURITY.md](./docs/SECURITY.md).
+To report a security vulnerability, report to [Monkeytype's repo](https://github.com/monkeytypegame/monkeytype) immediately. Do not come to this repo complaining.
 
 # Credits
 
-[Montydrei](https://www.reddit.com/user/montydrei) for the name suggestion.
+Myself for making the name.
 
-Everyone who provided valuable feedback on the [original Reddit post](https://www.reddit.com/r/MechanicalKeyboards/comments/gc6wx3/experimenting_with_a_completely_new_type_of/) for the prototype of this website.
+Everyone on the Monkeytype team.
 
-All of the [contributors](https://github.com/monkeytypegame/monkeytype/graphs/contributors) have helped implement various features, add themes, fix bugs, and more.
+All of the [contributors](https://github.com/monkeytypegame/monkeytype/graphs/contributors) at Monkeytype!
+
+And you for playing 🫀
+Whoops, that's an anatomically accurate heart
 
 # Support
 
-If you wish to support further development and feel extra awesome, you can [donate](https://ko-fi.com/monkeytype), [become a Patron](https://www.patreon.com/monkeytype) or [buy a t-shirt](https://www.monkeytype.store/).
+If you wish to support further development and feel extra awesome, you can [donate](https://ko-fi.com/thesomewhatyou) to me or donate to [Monkeytype](https://ko-fi.com/monkeytype). Donate to them, not me.
