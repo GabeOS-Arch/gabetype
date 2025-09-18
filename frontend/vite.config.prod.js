@@ -123,7 +123,7 @@ export default {
         runtimeCaching: [
           {
             urlPattern: (options) => {
-              const isApi = options.url.hostname === "api.gabetype.com";
+              const isApi = options.url.hostname === "api.monkeytype.com";
               return options.sameOrigin && !isApi;
             },
             handler: "NetworkFirst",
@@ -302,7 +302,7 @@ export default {
   },
   define: {
     BACKEND_URL: JSON.stringify(
-      process.env.BACKEND_URL || "https://api.gabetype.com"
+      process.env.BACKEND_URL || "https://api.monkeytype.com"
     ),
     IS_DEVELOPMENT: JSON.stringify(false),
     CLIENT_VERSION: JSON.stringify(CLIENT_VERSION),
