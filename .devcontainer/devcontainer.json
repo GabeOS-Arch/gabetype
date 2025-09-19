@@ -1,0 +1,50 @@
+{
+  "name": "Gabetype Development",
+  "image": "mcr.microsoft.com/devcontainers/javascript-node:1-20-bullseye",
+  "features": {
+    "ghcr.io/devcontainers/features/docker-in-docker:2": {},
+    "ghcr.io/devcontainers/features/git:1": {}
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "esbenp.prettier-vscode",
+        "vitest.explorer",
+        "huntertran.auto-markdown-toc",
+        "dbaeumer.vscode-eslint",
+        "oxc.oxc-vscode",
+        "ms-vscode.vscode-typescript-next"
+      ],
+      "settings": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSaveMode": "file",
+        "editor.formatOnSave": true,
+        "testing.automaticallyOpenTestResults": "neverOpen",
+        "[json]": {
+          "editor.defaultFormatter": "esbenp.prettier-vscode"
+        },
+        "[html]": {
+          "editor.defaultFormatter": "esbenp.prettier-vscode"
+        },
+        "vitest.maximumConfigs": 10
+      }
+    }
+  },
+  "postCreateCommand": "npm install -g pnpm@9.6.0 && pnpm install",
+  "forwardPorts": [3000, 8080, 5000],
+  "portsAttributes": {
+    "3000": {
+      "label": "Frontend Dev Server",
+      "onAutoForward": "notify"
+    },
+    "8080": {
+      "label": "Backend Dev Server",
+      "onAutoForward": "notify"
+    },
+    "5000": {
+      "label": "Frontend Build Preview",
+      "onAutoForward": "notify"
+    }
+  },
+  "remoteUser": "node"
+}

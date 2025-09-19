@@ -96,7 +96,7 @@
       }
     ],
 
-    // todo: enable
+    // todo: enable. yeah right like that ever happened mt team :P
     "no-array-for-each": "off",
 
     // consider these for the future

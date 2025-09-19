@@ -92,8 +92,8 @@ export default {
       injectRegister: null,
       registerType: "autoUpdate",
       manifest: {
-        short_name: "Monkeytype",
-        name: "Monkeytype",
+        short_name: "Gabetype",
+        name: "Gabetype",
         start_url: "/",
         icons: [
           {
@@ -143,12 +143,12 @@ export default {
     process.env.SENTRY
       ? sentryVitePlugin({
           authToken: process.env.SENTRY_AUTH_TOKEN,
-          org: "monkeytype",
+          org: "gabetype",
           project: "frontend",
           release: {
             name: CLIENT_VERSION,
           },
-          applicationKey: "monkeytype-frontend",
+          applicationKey: "gabetype-frontend",
         })
       : null,
     replace([
@@ -260,7 +260,7 @@ export default {
     assetsInlineLimit: 0, //dont inline small files as data
     rollupOptions: {
       input: {
-        monkeytype: path.resolve(__dirname, "src/index.html"),
+        gabetype: path.resolve(__dirname, "src/index.html"),
         email: path.resolve(__dirname, "src/email-handler.html"),
         privacy: path.resolve(__dirname, "src/privacy-policy.html"),
         security: path.resolve(__dirname, "src/security-policy.html"),
