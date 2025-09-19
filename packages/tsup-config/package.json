@@ -1,5 +1,5 @@
 {
-  "name": "@gabetype/tsup-config",
+  "name": "@monkeytype/tsup-config",
   "private": true,
   "scripts": {
     "dev": "tsup-node --watch",
@@ -13,7 +13,7 @@
     "tsup": "8.4.0"
   },
   "devDependencies": {
-    "@gabetype/typescript-config": "workspace:*",
+    "@monkeytype/typescript-config": "workspace:*",
     "eslint": "8.57.1",
     "oxlint": "1.15.0",
     "typescript": "5.5.4"

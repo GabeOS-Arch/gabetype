@@ -1,6 +1,6 @@
 {
   "extends": [
     "../oxlint-config/index.jsonc"
-    // "@gabetype/oxlint-config"
+    // "@monkeytype/oxlint-config"
   ]
 }

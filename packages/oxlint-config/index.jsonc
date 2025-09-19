@@ -97,6 +97,7 @@
     ],
 
     // todo: enable
+    // monkeytype team what are you even doing with your lives you never enabled these rules
     "no-array-for-each": "off",
 
     // consider these for the future
@@ -104,3 +105,7 @@
     "no-nested-ternary": "off"
   }
 }
+
+// yes i'm going to make a humiliation out of myself but that's okay because why not
+// i am going to make an npm account and call it gabetype
+// you probably already read the other jsonc comments but whatever

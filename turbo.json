@@ -31,20 +31,20 @@
     "start": {
       "dependsOn": ["build"]
     },
-    "@gabetype/frontend#check-assets": {
-      "dependsOn": ["^parallel", "@gabetype/schemas#build"]
+    "@monkeytype/frontend#check-assets": {
+      "dependsOn": ["^parallel", "@monkeytype/schemas#build"]
     },
-    "@gabetype/frontend#build": {
+    "@monkeytype/frontend#build": {
       "dependsOn": ["^build"],
       "env": ["BACKEND_URL", "RECAPTCHA_SITE_KEY", "SENTRY"],
       "outputs": ["dist/**"]
     },
-    "@gabetype/frontend#dev": {
+    "@monkeytype/frontend#dev": {
       "dependsOn": ["^build"],
       "env": ["BACKEND_URL", "RECAPTCHA_SITE_KEY", "SERVER_OPEN"],
       "persistent": true
     },
-    "@gabetype/backend#dev": {
+    "@monkeytype/backend#dev": {
       "dependsOn": ["^build"],
       "env": ["DB_URI", "REDIS_URI", "PORT"],
       "persistent": true

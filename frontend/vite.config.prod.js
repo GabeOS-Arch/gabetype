@@ -16,7 +16,7 @@ import { getFontsConig } from "./vite.config";
 
 function pad(numbers, maxLength, fillString) {
   return numbers.map((number) =>
-    number.toString().padStart(maxLength, fillString),
+    number.toString().padStart(maxLength, fillString)
   );
 }
 
@@ -25,10 +25,10 @@ const CLIENT_VERSION = (() => {
   const versionPrefix = pad(
     [date.getFullYear(), date.getMonth() + 1, date.getDate()],
     2,
-    "0",
+    "0"
   ).join(".");
   const versionSuffix = pad([date.getHours(), date.getMinutes()], 2, "0").join(
-    ".",
+    "."
   );
   const version = [versionPrefix, versionSuffix].join("_");
 
@@ -208,7 +208,7 @@ export default {
               const originalContent = readFileSync(sourcePath, "utf8");
               const originalSize = Buffer.byteLength(originalContent, "utf8");
               const minifiedContent = JSON.stringify(
-                JSON.parse(originalContent),
+                JSON.parse(originalContent)
               );
               const minifiedSize = Buffer.byteLength(minifiedContent, "utf8");
 
@@ -248,7 +248,7 @@ export default {
               1024 /
               1024
             ).toFixed(2)} mB\x1b[0m\n` +
-            `  \x1b[32mTotal savings: ${totalSavings.toFixed(2)}%\x1b[0m\n`,
+            `  \x1b[32mTotal savings: ${totalSavings.toFixed(2)}%\x1b[0m\n`
         );
       },
     },
@@ -302,7 +302,7 @@ export default {
   },
   define: {
     BACKEND_URL: JSON.stringify(
-      process.env.BACKEND_URL || "https://api.monkeytype.com",
+      process.env.BACKEND_URL || "https://api.monkeytype.com"
     ),
     IS_DEVELOPMENT: JSON.stringify(false),
     CLIENT_VERSION: JSON.stringify(CLIENT_VERSION),
