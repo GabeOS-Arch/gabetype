@@ -14,12 +14,12 @@ importers:
       '@commitlint/config-conventional':
         specifier: 19.2.2
         version: 19.2.2
-      '@monkeytype/release':
+      '@gabetype/release':
         specifier: workspace:*
         version: link:packages/release
       '@vitest/coverage-v8':
         specifier: 3.2.4
-        version: 3.2.4(vitest@3.2.4(@types/node@20.5.1)(happy-dom@15.10.2)(sass@1.70.0)(terser@5.43.1)(tsx@4.16.2)(yaml@2.5.0))
+        version: 3.2.4(vitest@3.2.4(@types/node@20.5.1)(happy-dom@15.10.2)(sass@1.70.0)(terser@5.44.0)(tsx@4.16.2)(yaml@2.5.0))
       conventional-changelog:
         specifier: 6.0.0
         version: 6.0.0(conventional-commits-filter@5.0.0)
@@ -49,20 +49,20 @@ importers:
         version: 2.5.6
       vitest:
         specifier: 3.2.4
-        version: 3.2.4(@types/node@20.5.1)(happy-dom@15.10.2)(sass@1.70.0)(terser@5.43.1)(tsx@4.16.2)(yaml@2.5.0)
+        version: 3.2.4(@types/node@20.5.1)(happy-dom@15.10.2)(sass@1.70.0)(terser@5.44.0)(tsx@4.16.2)(yaml@2.5.0)
 
   backend:
     dependencies:
       '@date-fns/utc':
         specifier: 1.2.0
         version: 1.2.0
-      '@monkeytype/contracts':
+      '@gabetype/contracts':
         specifier: workspace:*
         version: link:../packages/contracts
-      '@monkeytype/funbox':
+      '@gabetype/funbox':
         specifier: workspace:*
         version: link:../packages/funbox
-      '@monkeytype/util':
+      '@gabetype/util':
         specifier: workspace:*
         version: link:../packages/util
       '@ts-rest/core':
@@ -162,16 +162,16 @@ importers:
         specifier: 3.23.8
         version: 3.23.8
     devDependencies:
-      '@monkeytype/eslint-config':
+      '@gabetype/eslint-config':
         specifier: workspace:*
         version: link:../packages/eslint-config
-      '@monkeytype/oxlint-config':
+      '@gabetype/oxlint-config':
         specifier: workspace:*
         version: link:../packages/oxlint-config
-      '@monkeytype/schemas':
+      '@gabetype/schemas':
         specifier: workspace:*
         version: link:../packages/schemas
-      '@monkeytype/typescript-config':
+      '@gabetype/typescript-config':
         specifier: workspace:*
         version: link:../packages/typescript-config
       '@redocly/cli':
@@ -230,7 +230,7 @@ importers:
         version: 10.0.0
       '@vitest/coverage-v8':
         specifier: 3.2.4
-        version: 3.2.4(vitest@3.2.4(@types/node@20.14.11)(happy-dom@15.10.2)(sass@1.70.0)(terser@5.43.1)(tsx@4.16.2)(yaml@2.5.0))
+        version: 3.2.4(vitest@3.2.4(@types/node@20.14.11)(happy-dom@15.10.2)(sass@1.70.0)(terser@5.44.0)(tsx@4.16.2)(yaml@2.5.0))
       concurrently:
         specifier: 8.2.2
         version: 8.2.2
@@ -263,20 +263,20 @@ importers:
         version: 5.5.4
       vitest:
         specifier: 3.2.4
-        version: 3.2.4(@types/node@20.14.11)(happy-dom@15.10.2)(sass@1.70.0)(terser@5.43.1)(tsx@4.16.2)(yaml@2.5.0)
+        version: 3.2.4(@types/node@20.14.11)(happy-dom@15.10.2)(sass@1.70.0)(terser@5.44.0)(tsx@4.16.2)(yaml@2.5.0)
 
   frontend:
     dependencies:
       '@date-fns/utc':
         specifier: 1.2.0
         version: 1.2.0
-      '@monkeytype/contracts':
+      '@gabetype/contracts':
         specifier: workspace:*
         version: link:../packages/contracts
-      '@monkeytype/funbox':
+      '@gabetype/funbox':
         specifier: workspace:*
         version: link:../packages/funbox
-      '@monkeytype/util':
+      '@gabetype/util':
         specifier: workspace:*
         version: link:../packages/util
       '@sentry/browser':
@@ -370,16 +370,16 @@ importers:
       '@fortawesome/fontawesome-free':
         specifier: 5.15.4
         version: 5.15.4
-      '@monkeytype/eslint-config':
+      '@gabetype/eslint-config':
         specifier: workspace:*
         version: link:../packages/eslint-config
-      '@monkeytype/oxlint-config':
+      '@gabetype/oxlint-config':
         specifier: workspace:*
         version: link:../packages/oxlint-config
-      '@monkeytype/schemas':
+      '@gabetype/schemas':
         specifier: workspace:*
         version: link:../packages/schemas
-      '@monkeytype/typescript-config':
+      '@gabetype/typescript-config':
         specifier: workspace:*
         version: link:../packages/typescript-config
       '@types/canvas-confetti':
@@ -506,16 +506,16 @@ importers:
         specifier: 3.23.8
         version: 3.23.8
     devDependencies:
-      '@monkeytype/eslint-config':
+      '@gabetype/eslint-config':
         specifier: workspace:*
         version: link:../eslint-config
-      '@monkeytype/schemas':
+      '@gabetype/schemas':
         specifier: workspace:*
         version: link:../schemas
-      '@monkeytype/tsup-config':
+      '@gabetype/tsup-config':
         specifier: workspace:*
         version: link:../tsup-config
-      '@monkeytype/typescript-config':
+      '@gabetype/typescript-config':
         specifier: workspace:*
         version: link:../typescript-config
       eslint:
@@ -535,7 +535,7 @@ importers:
         version: 5.5.4
       vitest:
         specifier: 3.2.4
-        version: 3.2.4(@types/node@20.14.11)(happy-dom@15.10.2)(sass@1.70.0)(terser@5.43.1)(tsx@4.16.2)(yaml@2.5.0)
+        version: 3.2.4(@types/node@20.14.11)(happy-dom@15.10.2)(sass@1.70.0)(terser@5.44.0)(tsx@4.16.2)(yaml@2.5.0)
 
   packages/eslint-config:
     devDependencies:
@@ -566,20 +566,20 @@ importers:
 
   packages/funbox:
     dependencies:
-      '@monkeytype/util':
+      '@gabetype/util':
         specifier: workspace:*
         version: link:../util
     devDependencies:
-      '@monkeytype/eslint-config':
+      '@gabetype/eslint-config':
         specifier: workspace:*
         version: link:../eslint-config
-      '@monkeytype/schemas':
+      '@gabetype/schemas':
         specifier: workspace:*
         version: link:../schemas
-      '@monkeytype/tsup-config':
+      '@gabetype/tsup-config':
         specifier: workspace:*
         version: link:../tsup-config
-      '@monkeytype/typescript-config':
+      '@gabetype/typescript-config':
         specifier: workspace:*
         version: link:../typescript-config
       eslint:
@@ -599,7 +599,7 @@ importers:
         version: 5.5.4
       vitest:
         specifier: 3.2.4
-        version: 3.2.4(@types/node@20.14.11)(happy-dom@15.10.2)(sass@1.70.0)(terser@5.43.1)(tsx@4.16.2)(yaml@2.5.0)
+        version: 3.2.4(@types/node@20.14.11)(happy-dom@15.10.2)(sass@1.70.0)(terser@5.44.0)(tsx@4.16.2)(yaml@2.5.0)
 
   packages/oxlint-config: {}
 
@@ -615,7 +615,7 @@ importers:
         specifier: 1.4.10
         version: 1.4.10
     devDependencies:
-      '@monkeytype/eslint-config':
+      '@gabetype/eslint-config':
         specifier: workspace:*
         version: link:../eslint-config
       eslint:
@@ -634,13 +634,13 @@ importers:
         specifier: 3.23.8
         version: 3.23.8
     devDependencies:
-      '@monkeytype/eslint-config':
+      '@gabetype/eslint-config':
         specifier: workspace:*
         version: link:../eslint-config
-      '@monkeytype/tsup-config':
+      '@gabetype/tsup-config':
         specifier: workspace:*
         version: link:../tsup-config
-      '@monkeytype/typescript-config':
+      '@gabetype/typescript-config':
         specifier: workspace:*
         version: link:../typescript-config
       eslint:
@@ -660,7 +660,7 @@ importers:
         version: 5.5.4
       vitest:
         specifier: 3.2.4
-        version: 3.2.4(@types/node@20.14.11)(happy-dom@15.10.2)(sass@1.70.0)(terser@5.43.1)(tsx@4.16.2)(yaml@2.5.0)
+        version: 3.2.4(@types/node@20.14.11)(happy-dom@15.10.2)(sass@1.70.0)(terser@5.44.0)(tsx@4.16.2)(yaml@2.5.0)
 
   packages/tsup-config:
     dependencies:
@@ -668,7 +668,7 @@ importers:
         specifier: 8.4.0
         version: 8.4.0(postcss@8.5.3)(tsx@4.16.2)(typescript@5.5.4)(yaml@2.5.0)
     devDependencies:
-      '@monkeytype/typescript-config':
+      '@gabetype/typescript-config':
         specifier: workspace:*
         version: link:../typescript-config
       eslint:
@@ -685,13 +685,13 @@ importers:
 
   packages/util:
     devDependencies:
-      '@monkeytype/eslint-config':
+      '@gabetype/eslint-config':
         specifier: workspace:*
         version: link:../eslint-config
-      '@monkeytype/tsup-config':
+      '@gabetype/tsup-config':
         specifier: workspace:*
         version: link:../tsup-config
-      '@monkeytype/typescript-config':
+      '@gabetype/typescript-config':
         specifier: workspace:*
         version: link:../typescript-config
       eslint:
@@ -711,7 +711,7 @@ importers:
         version: 5.5.4
       vitest:
         specifier: 3.2.4
-        version: 3.2.4(@types/node@20.14.11)(happy-dom@15.10.2)(sass@1.70.0)(terser@5.43.1)(tsx@4.16.2)(yaml@2.5.0)
+        version: 3.2.4(@types/node@20.14.11)(happy-dom@15.10.2)(sass@1.70.0)(terser@5.44.0)(tsx@4.16.2)(yaml@2.5.0)
       zod:
         specifier: 3.23.8
         version: 3.23.8
@@ -8721,11 +8721,6 @@ packages:
     engines: {node: '>=10'}
     hasBin: true
 
-  terser@5.43.1:
-    resolution: {integrity: sha512-+6erLbBm0+LROX2sPXlUYx/ux5PyE9K/a92Wrt6oA+WDAoFTdpHE5tCYCI5PNzq2y8df4rA+QgHLJuR4jNymsg==}
-    engines: {node: '>=10'}
-    hasBin: true
-
   terser@5.44.0:
     resolution: {integrity: sha512-nIVck8DK+GM/0Frwd+nIhZ84pR/BX7rmXMfYwyg+Sri5oGVE99/E3KvXqpC2xHFxyqXyGHTKBSioxxplrO4I4w==}
     engines: {node: '>=10'}
@@ -12735,25 +12730,6 @@ snapshots:
 
   '@ungap/structured-clone@1.2.0': {}
 
-  '@vitest/coverage-v8@3.2.4(vitest@3.2.4(@types/node@20.14.11)(happy-dom@15.10.2)(sass@1.70.0)(terser@5.43.1)(tsx@4.16.2)(yaml@2.5.0))':
-    dependencies:
-      '@ampproject/remapping': 2.3.0
-      '@bcoe/v8-coverage': 1.0.2
-      ast-v8-to-istanbul: 0.3.3
-      debug: 4.4.1
-      istanbul-lib-coverage: 3.2.2
-      istanbul-lib-report: 3.0.1
-      istanbul-lib-source-maps: 5.0.6
-      istanbul-reports: 3.1.7
-      magic-string: 0.30.17
-      magicast: 0.3.5
-      std-env: 3.9.0
-      test-exclude: 7.0.1
-      tinyrainbow: 2.0.0
-      vitest: 3.2.4(@types/node@20.14.11)(happy-dom@15.10.2)(sass@1.70.0)(terser@5.43.1)(tsx@4.16.2)(yaml@2.5.0)
-    transitivePeerDependencies:
-      - supports-color
-
   '@vitest/coverage-v8@3.2.4(vitest@3.2.4(@types/node@20.14.11)(happy-dom@15.10.2)(sass@1.70.0)(terser@5.44.0)(tsx@4.16.2)(yaml@2.5.0))':
     dependencies:
       '@ampproject/remapping': 2.3.0
@@ -12773,7 +12749,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@vitest/coverage-v8@3.2.4(vitest@3.2.4(@types/node@20.5.1)(happy-dom@15.10.2)(sass@1.70.0)(terser@5.43.1)(tsx@4.16.2)(yaml@2.5.0))':
+  '@vitest/coverage-v8@3.2.4(vitest@3.2.4(@types/node@20.5.1)(happy-dom@15.10.2)(sass@1.70.0)(terser@5.44.0)(tsx@4.16.2)(yaml@2.5.0))':
     dependencies:
       '@ampproject/remapping': 2.3.0
       '@bcoe/v8-coverage': 1.0.2
@@ -12788,7 +12764,7 @@ snapshots:
       std-env: 3.9.0
       test-exclude: 7.0.1
       tinyrainbow: 2.0.0
-      vitest: 3.2.4(@types/node@20.5.1)(happy-dom@15.10.2)(sass@1.70.0)(terser@5.43.1)(tsx@4.16.2)(yaml@2.5.0)
+      vitest: 3.2.4(@types/node@20.5.1)(happy-dom@15.10.2)(sass@1.70.0)(terser@5.44.0)(tsx@4.16.2)(yaml@2.5.0)
     transitivePeerDependencies:
       - supports-color
 
@@ -12800,14 +12776,6 @@ snapshots:
       chai: 5.2.1
       tinyrainbow: 2.0.0
 
-  '@vitest/mocker@3.2.4(vite@6.3.4(@types/node@20.14.11)(sass@1.70.0)(terser@5.43.1)(tsx@4.16.2)(yaml@2.5.0))':
-    dependencies:
-      '@vitest/spy': 3.2.4
-      estree-walker: 3.0.3
-      magic-string: 0.30.17
-    optionalDependencies:
-      vite: 6.3.4(@types/node@20.14.11)(sass@1.70.0)(terser@5.43.1)(tsx@4.16.2)(yaml@2.5.0)
-
   '@vitest/mocker@3.2.4(vite@6.3.4(@types/node@20.14.11)(sass@1.70.0)(terser@5.44.0)(tsx@4.16.2)(yaml@2.5.0))':
     dependencies:
       '@vitest/spy': 3.2.4
@@ -12816,13 +12784,13 @@ snapshots:
     optionalDependencies:
       vite: 6.3.4(@types/node@20.14.11)(sass@1.70.0)(terser@5.44.0)(tsx@4.16.2)(yaml@2.5.0)
 
-  '@vitest/mocker@3.2.4(vite@6.3.4(@types/node@20.5.1)(sass@1.70.0)(terser@5.43.1)(tsx@4.16.2)(yaml@2.5.0))':
+  '@vitest/mocker@3.2.4(vite@6.3.4(@types/node@20.5.1)(sass@1.70.0)(terser@5.44.0)(tsx@4.16.2)(yaml@2.5.0))':
     dependencies:
       '@vitest/spy': 3.2.4
       estree-walker: 3.0.3
       magic-string: 0.30.17
     optionalDependencies:
-      vite: 6.3.4(@types/node@20.5.1)(sass@1.70.0)(terser@5.43.1)(tsx@4.16.2)(yaml@2.5.0)
+      vite: 6.3.4(@types/node@20.5.1)(sass@1.70.0)(terser@5.44.0)(tsx@4.16.2)(yaml@2.5.0)
 
   '@vitest/pretty-format@3.2.4':
     dependencies:
@@ -19460,14 +19428,6 @@ snapshots:
       commander: 2.20.3
       source-map-support: 0.5.21
 
-  terser@5.43.1:
-    dependencies:
-      '@jridgewell/source-map': 0.3.11
-      acorn: 8.15.0
-      commander: 2.20.3
-      source-map-support: 0.5.21
-    optional: true
-
   terser@5.44.0:
     dependencies:
       '@jridgewell/source-map': 0.3.11
@@ -20031,27 +19991,6 @@ snapshots:
     dependencies:
       vite: 6.3.6(@types/node@20.14.11)(sass@1.70.0)(terser@5.44.0)(tsx@4.16.2)(yaml@2.5.0)
 
-  vite-node@3.2.4(@types/node@20.14.11)(sass@1.70.0)(terser@5.43.1)(tsx@4.16.2)(yaml@2.5.0):
-    dependencies:
-      cac: 6.7.14
-      debug: 4.4.1
-      es-module-lexer: 1.7.0
-      pathe: 2.0.3
-      vite: 6.3.6(@types/node@20.14.11)(sass@1.70.0)(terser@5.43.1)(tsx@4.16.2)(yaml@2.5.0)
-    transitivePeerDependencies:
-      - '@types/node'
-      - jiti
-      - less
-      - lightningcss
-      - sass
-      - sass-embedded
-      - stylus
-      - sugarss
-      - supports-color
-      - terser
-      - tsx
-      - yaml
-
   vite-node@3.2.4(@types/node@20.14.11)(sass@1.70.0)(terser@5.44.0)(tsx@4.16.2)(yaml@2.5.0):
     dependencies:
       cac: 6.7.14
@@ -20073,13 +20012,13 @@ snapshots:
       - tsx
       - yaml
 
-  vite-node@3.2.4(@types/node@20.5.1)(sass@1.70.0)(terser@5.43.1)(tsx@4.16.2)(yaml@2.5.0):
+  vite-node@3.2.4(@types/node@20.5.1)(sass@1.70.0)(terser@5.44.0)(tsx@4.16.2)(yaml@2.5.0):
     dependencies:
       cac: 6.7.14
       debug: 4.4.1
       es-module-lexer: 1.7.0
       pathe: 2.0.3
-      vite: 6.3.6(@types/node@20.5.1)(sass@1.70.0)(terser@5.43.1)(tsx@4.16.2)(yaml@2.5.0)
+      vite: 6.3.6(@types/node@20.5.1)(sass@1.70.0)(terser@5.44.0)(tsx@4.16.2)(yaml@2.5.0)
     transitivePeerDependencies:
       - '@types/node'
       - jiti
@@ -20160,22 +20099,6 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  vite@6.3.4(@types/node@20.14.11)(sass@1.70.0)(terser@5.43.1)(tsx@4.16.2)(yaml@2.5.0):
-    dependencies:
-      esbuild: 0.25.0
-      fdir: 6.4.4(picomatch@4.0.2)
-      picomatch: 4.0.2
-      postcss: 8.5.3
-      rollup: 4.40.0
-      tinyglobby: 0.2.13
-    optionalDependencies:
-      '@types/node': 20.14.11
-      fsevents: 2.3.3
-      sass: 1.70.0
-      terser: 5.43.1
-      tsx: 4.16.2
-      yaml: 2.5.0
-
   vite@6.3.4(@types/node@20.14.11)(sass@1.70.0)(terser@5.44.0)(tsx@4.16.2)(yaml@2.5.0):
     dependencies:
       esbuild: 0.25.0
@@ -20192,7 +20115,7 @@ snapshots:
       tsx: 4.16.2
       yaml: 2.5.0
 
-  vite@6.3.4(@types/node@20.5.1)(sass@1.70.0)(terser@5.43.1)(tsx@4.16.2)(yaml@2.5.0):
+  vite@6.3.4(@types/node@20.5.1)(sass@1.70.0)(terser@5.44.0)(tsx@4.16.2)(yaml@2.5.0):
     dependencies:
       esbuild: 0.25.0
       fdir: 6.4.4(picomatch@4.0.2)
@@ -20204,23 +20127,7 @@ snapshots:
       '@types/node': 20.5.1
       fsevents: 2.3.3
       sass: 1.70.0
-      terser: 5.43.1
-      tsx: 4.16.2
-      yaml: 2.5.0
-
-  vite@6.3.6(@types/node@20.14.11)(sass@1.70.0)(terser@5.43.1)(tsx@4.16.2)(yaml@2.5.0):
-    dependencies:
-      esbuild: 0.25.0
-      fdir: 6.4.4(picomatch@4.0.3)
-      picomatch: 4.0.3
-      postcss: 8.5.3
-      rollup: 4.40.0
-      tinyglobby: 0.2.14
-    optionalDependencies:
-      '@types/node': 20.14.11
-      fsevents: 2.3.3
-      sass: 1.70.0
-      terser: 5.43.1
+      terser: 5.44.0
       tsx: 4.16.2
       yaml: 2.5.0
 
@@ -20240,7 +20147,7 @@ snapshots:
       tsx: 4.16.2
       yaml: 2.5.0
 
-  vite@6.3.6(@types/node@20.5.1)(sass@1.70.0)(terser@5.43.1)(tsx@4.16.2)(yaml@2.5.0):
+  vite@6.3.6(@types/node@20.5.1)(sass@1.70.0)(terser@5.44.0)(tsx@4.16.2)(yaml@2.5.0):
     dependencies:
       esbuild: 0.25.0
       fdir: 6.4.4(picomatch@4.0.3)
@@ -20252,51 +20159,9 @@ snapshots:
       '@types/node': 20.5.1
       fsevents: 2.3.3
       sass: 1.70.0
-      terser: 5.43.1
+      terser: 5.44.0
       tsx: 4.16.2
       yaml: 2.5.0
-
-  vitest@3.2.4(@types/node@20.14.11)(happy-dom@15.10.2)(sass@1.70.0)(terser@5.43.1)(tsx@4.16.2)(yaml@2.5.0):
-    dependencies:
-      '@types/chai': 5.2.2
-      '@vitest/expect': 3.2.4
-      '@vitest/mocker': 3.2.4(vite@6.3.4(@types/node@20.14.11)(sass@1.70.0)(terser@5.43.1)(tsx@4.16.2)(yaml@2.5.0))
-      '@vitest/pretty-format': 3.2.4
-      '@vitest/runner': 3.2.4
-      '@vitest/snapshot': 3.2.4
-      '@vitest/spy': 3.2.4
-      '@vitest/utils': 3.2.4
-      chai: 5.2.1
-      debug: 4.4.1
-      expect-type: 1.2.2
-      magic-string: 0.30.17
-      pathe: 2.0.3
-      picomatch: 4.0.3
-      std-env: 3.9.0
-      tinybench: 2.9.0
-      tinyexec: 0.3.2
-      tinyglobby: 0.2.14
-      tinypool: 1.1.1
-      tinyrainbow: 2.0.0
-      vite: 6.3.4(@types/node@20.14.11)(sass@1.70.0)(terser@5.43.1)(tsx@4.16.2)(yaml@2.5.0)
-      vite-node: 3.2.4(@types/node@20.14.11)(sass@1.70.0)(terser@5.43.1)(tsx@4.16.2)(yaml@2.5.0)
-      why-is-node-running: 2.3.0
-    optionalDependencies:
-      '@types/node': 20.14.11
-      happy-dom: 15.10.2
-    transitivePeerDependencies:
-      - jiti
-      - less
-      - lightningcss
-      - msw
-      - sass
-      - sass-embedded
-      - stylus
-      - sugarss
-      - supports-color
-      - terser
-      - tsx
-      - yaml
 
   vitest@3.2.4(@types/node@20.14.11)(happy-dom@15.10.2)(sass@1.70.0)(terser@5.44.0)(tsx@4.16.2)(yaml@2.5.0):
     dependencies:
@@ -20340,11 +20205,11 @@ snapshots:
       - tsx
       - yaml
 
-  vitest@3.2.4(@types/node@20.5.1)(happy-dom@15.10.2)(sass@1.70.0)(terser@5.43.1)(tsx@4.16.2)(yaml@2.5.0):
+  vitest@3.2.4(@types/node@20.5.1)(happy-dom@15.10.2)(sass@1.70.0)(terser@5.44.0)(tsx@4.16.2)(yaml@2.5.0):
     dependencies:
       '@types/chai': 5.2.2
       '@vitest/expect': 3.2.4
-      '@vitest/mocker': 3.2.4(vite@6.3.4(@types/node@20.5.1)(sass@1.70.0)(terser@5.43.1)(tsx@4.16.2)(yaml@2.5.0))
+      '@vitest/mocker': 3.2.4(vite@6.3.4(@types/node@20.5.1)(sass@1.70.0)(terser@5.44.0)(tsx@4.16.2)(yaml@2.5.0))
       '@vitest/pretty-format': 3.2.4
       '@vitest/runner': 3.2.4
       '@vitest/snapshot': 3.2.4
@@ -20362,8 +20227,8 @@ snapshots:
       tinyglobby: 0.2.14
       tinypool: 1.1.1
       tinyrainbow: 2.0.0
-      vite: 6.3.4(@types/node@20.5.1)(sass@1.70.0)(terser@5.43.1)(tsx@4.16.2)(yaml@2.5.0)
-      vite-node: 3.2.4(@types/node@20.5.1)(sass@1.70.0)(terser@5.43.1)(tsx@4.16.2)(yaml@2.5.0)
+      vite: 6.3.4(@types/node@20.5.1)(sass@1.70.0)(terser@5.44.0)(tsx@4.16.2)(yaml@2.5.0)
+      vite-node: 3.2.4(@types/node@20.5.1)(sass@1.70.0)(terser@5.44.0)(tsx@4.16.2)(yaml@2.5.0)
       why-is-node-running: 2.3.0
     optionalDependencies:
       '@types/node': 20.5.1
