@@ -9,7 +9,7 @@
     "vscode": {
       "extensions": [
         "esbenp.prettier-vscode",
-        "vitest.explorer", 
+        "vitest.explorer",
         "huntertran.auto-markdown-toc",
         "dbaeumer.vscode-eslint",
         "oxc.oxc-vscode",
@@ -38,7 +38,7 @@
       "onAutoForward": "notify"
     },
     "8080": {
-      "label": "Backend Dev Server", 
+      "label": "Backend Dev Server",
       "onAutoForward": "notify"
     },
     "5000": {
